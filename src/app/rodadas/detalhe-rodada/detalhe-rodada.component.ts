@@ -6,6 +6,7 @@ import Swal from 'sweetalert2'
 
 ;
 import { RodadaModel } from 'src/app/models/RodadaModel';
+import { ClubeModel } from 'src/app/models/ClubeModel';
 @Component({
   selector: 'app-detalhe-rodada',
   templateUrl: './detalhe-rodada.component.html',
@@ -23,7 +24,7 @@ export class DetalheRodadaComponent implements OnInit {
   }
 
   rodadas: RodadaModel[] = RodadasJson;
-  clubes: any[] = ClubesJson;
+  clubes: ClubeModel[] = ClubesJson;
   possuiRodada = false;
 
   rodadaSelecionada: RodadaModel;
@@ -53,7 +54,7 @@ export class DetalheRodadaComponent implements OnInit {
   }
 
   obterNome(id: string) {
-    return this.clubes.find(x => x.id == id).nome;
+    return this.clubes.find(x => x.id == id)?.nome;     
   }
 
 }

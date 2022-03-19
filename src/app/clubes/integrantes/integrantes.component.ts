@@ -1,11 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ClubeModel } from 'src/app/models/ClubeModel';
 import ClubesJson from '../../../assets/json-files/clubes.json';
-
-interface Clube {
-  id: string,
-  nome: string,
-  imagem: string
-}
 
 @Component({
   selector: 'app-integrantes',
@@ -16,7 +11,7 @@ export class IntegrantesComponent implements OnInit {
 
   constructor() { }
 
-  clubes: Clube[] = ClubesJson;
+  clubes: ClubeModel[] = ClubesJson;
 
   ngOnInit(): void {
     

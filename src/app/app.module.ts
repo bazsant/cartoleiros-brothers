@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+import { ClassificacaoComponent } from './classificacao/classificacao.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ClassificacaoComponent
   ],
   imports: [
     BrowserModule,

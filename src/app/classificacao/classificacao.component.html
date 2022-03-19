@@ -1,0 +1,23 @@
+<div class="card text-white bg-dark">
+    <img src="assets/imgs/classificacao-capa.jpg" class="card-img-top" alt="Imagem capa Classificação">
+    <div class="card-body">
+      <h5 class="card-title">Classificação</h5>
+      <p class="card-text">Classificação geral mais atualizada possível, espero rs</p>
+    </div>
+    <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Pontos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let posicao of classificacao | slice:0; let i = index">
+            <th scope="row">{{i + 1}}</th>
+            <td>{{posicao.nome}}</td>
+            <td>{{posicao.pontos}}</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
