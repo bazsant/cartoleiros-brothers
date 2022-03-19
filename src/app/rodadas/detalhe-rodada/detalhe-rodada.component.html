@@ -5,7 +5,7 @@
       <p class="card-text">{{rodadaSelecionada.descricao}}</p>
     </div>
     <ul class="list-group list-group-flush">
-        <li *ngFor="let clubeId of rodadaSelecionada.colocacoes | slice:0; let i = index" class="list-group-item"><b>{{i + 1}}º</b> - {{obterNome(clubeId)}}</li>
-        <li class="list-group-item"><b>Bônus</b> - {{obterNome(rodadaSelecionada.bonus)}}</li>
+        <li *ngFor="let clubeId of rodadaSelecionada.colocacoes | slice:0; let i = index" class="list-group-item text-white bg-dark"><b>{{i + 1}}º</b> - {{obterNome(clubeId)}}</li>
+        <li class="list-group-item text-white bg-dark"><b>Bônus</b> - {{obterNome(rodadaSelecionada.bonus)}}</li>
       </ul>
   </div>
