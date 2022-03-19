@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { RodadasRoutingModule } from './rodadas-routing.module';
 import { ListaRodadasComponent } from './lista-rodadas/lista-rodadas.component';
 import { DetalheRodadaComponent } from './detalhe-rodada/detalhe-rodada.component';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { DetalheRodadaComponent } from './detalhe-rodada/detalhe-rodada.componen
   ],
   imports: [
     CommonModule,
-    RodadasRoutingModule
+    RodadasRoutingModule,
+    SweetAlert2Module
   ]
 })
 export class RodadasModule { }

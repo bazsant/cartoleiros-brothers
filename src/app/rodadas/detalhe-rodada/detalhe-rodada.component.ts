@@ -1,5 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
+import RodadasJson from '../../../assets/json-files/rodadas.json';
+import ClubesJson from '../../../assets/json-files/clubes.json';
+import Swal from 'sweetalert2'
 
+
+;
+import { RodadaModel } from 'src/app/models/RodadaModel';
 @Component({
   selector: 'app-detalhe-rodada',
   templateUrl: './detalhe-rodada.component.html',
@@ -7,11 +13,47 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class DetalheRodadaComponent implements OnInit {
 
-  @Input() numeroRodada: number = 0;
-  
-  constructor() { }
+  private _numeroRodada: number = 0;
+  get numeroRodada(): number {
+    return this._numeroRodada;
+  }
+  @Input() set numeroRodada(value: number) {
+    this._numeroRodada = value;
+    this.preencherRodada(value);
+  }
+
+  rodadas: RodadaModel[] = RodadasJson;
+  clubes: any[] = ClubesJson;
+  possuiRodada = false;
+
+  rodadaSelecionada: RodadaModel;
+
+  constructor() {
+    this.rodadaSelecionada = new RodadaModel();
+  }
 
   ngOnInit(): void {
+
+  }
+
+  preencherRodada(rodada: number) {
+    const buscaRodada = this.rodadas.find(x => x.numero == rodada);    
+    if (buscaRodada) {
+      this.rodadaSelecionada = buscaRodada;
+      this.possuiRodada = true;
+    } else {
+      this.possuiRodada = false;
+      Swal.fire({
+        title: 'Opa!',
+        text: 'Rodada ainda não cadastrada!',
+        icon: 'error',
+        confirmButtonText: 'Beleza'
+      })
+    }
+  }
+
+  obterNome(id: string) {
+    return this.clubes.find(x => x.id == id).nome;
   }
 
 }

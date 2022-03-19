@@ -1,1 +1,11 @@
-<p>detalhe-rodada {{numeroRodada}} works!</p>
+<div *ngIf="possuiRodada" class="card">
+    <img [src]="rodadaSelecionada.meme" class="card-img-top" alt="Imagem com o meme da rodada">
+    <div class="card-body">
+      <h5 class="card-title">Rodada {{numeroRodada}}</h5>
+      <p class="card-text">{{rodadaSelecionada.descricao}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li *ngFor="let clubeId of rodadaSelecionada.colocacoes | slice:0; let i = index" class="list-group-item"><b>{{i + 1}}º</b> - {{obterNome(clubeId)}}</li>
+        <li class="list-group-item"><b>Bônus</b> - {{obterNome(rodadaSelecionada.bonus)}}</li>
+      </ul>
+  </div>
