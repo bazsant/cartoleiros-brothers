@@ -1,0 +1,13 @@
+<div class="card">
+  <img src="assets/imgs/rodadas-capa.webp" class="card-img-top" alt="Imagem capa de Rodadas">
+  <div class="card-body">
+    <h5 class="card-title">Rodadas</h5>
+    <p class="card-text">Selecione a rodada abaixo e veja mais detalhes sobre</p>
+    <select class="form-select" (change)="onChangeRodada($event.target)" aria-label="Default select example">
+      <option value="0" selected>Selecione a Rodada</option>
+      <option *ngFor="let rodada of rodadas" [value]="rodada">Rodada {{rodada}}</option>
+    </select>
+
+    <app-detalhe-rodada class="detalhe-rodada" *ngIf="rodadaSelecionada > 0" [numeroRodada]="rodadaSelecionada"></app-detalhe-rodada>
+  </div>
+</div>
