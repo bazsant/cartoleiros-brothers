@@ -3,10 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { ClubesModule } from './clubes/clubes.module';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { RegrasModule } from './regras/regras.module';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "clubes", loadChildren: () => ClubesModule },
+  { path: "regras", loadChildren: () => RegrasModule },
   { path: "**", component: NotFoundComponent }
 ];
 
