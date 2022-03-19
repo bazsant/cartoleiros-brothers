@@ -46,6 +46,9 @@ export class DetalheRodadaComponent implements OnInit {
       this.possuiRodada = false;
       Swal.fire({
         title: 'Opa!',
+        customClass: {
+          popup: 'bg-dark text-white'
+        },
         text: 'Rodada ainda não cadastrada!',
         icon: 'error',
         confirmButtonText: 'Beleza'
