@@ -1,13 +1,10 @@
 [
     { "colocacao": 0, "pontos": 1 },
-    { "colocacao": 1, "pontos": 25 },
-    { "colocacao": 2, "pontos": 18 },
-    { "colocacao": 3, "pontos": 15 },
-    { "colocacao": 4, "pontos": 12 },
-    { "colocacao": 5, "pontos": 10 },
-    { "colocacao": 6, "pontos": 8 },
-    { "colocacao": 7, "pontos": 6 },
-    { "colocacao": 8, "pontos": 4 },
-    { "colocacao": 9, "pontos": 2 },
-    { "colocacao": 10, "pontos": 1 }
+    { "colocacao": 1, "pontos": 7 },
+    { "colocacao": 2, "pontos": 6 },
+    { "colocacao": 3, "pontos": 5 },
+    { "colocacao": 4, "pontos": 4 },
+    { "colocacao": 5, "pontos": 3 },
+    { "colocacao": 6, "pontos": 2 },
+    { "colocacao": 7, "pontos": 1 }
 ]
