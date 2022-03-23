@@ -1,7 +1,9 @@
 [
-    { "id":"1", "nome": "FonsecasClub", "imagem": "assets/imgs/clubes/bazsantfc.png"},
-    { "id":"2", "nome": "Ovatsug Team", "imagem": "assets/imgs/clubes/bazsantfc.png"},
-    { "id":"3", "nome": "Puumas Jr FC", "imagem": "assets/imgs/clubes/bazsantfc.png"},
-    { "id":"4", "nome": "FC Real Cakes", "imagem": "assets/imgs/clubes/bazsantfc.png"},
-    { "id":"5", "nome": "Bazsant FC", "imagem": "assets/imgs/clubes/bazsantfc.png"}
+    { "id":"erick", "nome": "Fonseca's Club", "imagem": "assets/imgs/clubes/fonsecasclub.svg"},
+    { "id":"leticia", "nome": "Aicitel de Latiffa", "imagem": "assets/imgs/clubes/aicitel.svg"},
+    { "id":"jhones", "nome": "Bazsant FC", "imagem": "assets/imgs/clubes/bazsant.svg"},
+    { "id":"gustavo", "nome": "Ovatsug Team", "imagem": "assets/imgs/clubes/ovatsug.svg"},
+    { "id":"daniel", "nome": "Club XV de Quatorze", "imagem": "assets/imgs/clubes/xvde14.svg"},
+    { "id":"thiago", "nome": "TitoHenrique8", "imagem": "assets/imgs/clubes/titohenrique.svg"},
+    { "id":"joao", "nome": "SPIRIQUIDIBERTOS F C", "imagem": "assets/imgs/clubes/spiriquidibertos.svg"}
 ]

@@ -15,7 +15,7 @@
         <tbody>
           <tr *ngFor="let posicao of classificacao | slice:0; let i = index">
             <th scope="row">{{i + 1}}</th>
-            <td>{{posicao.nome}}</td>
+            <td><img class="logo-clube" [src]="posicao.imagem" alt="Logo do clube"> {{posicao.nome}}</td>
             <td>{{posicao.pontos}}</td>
           </tr>
         </tbody>

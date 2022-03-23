@@ -28,7 +28,7 @@ export class ClassificacaoComponent implements OnInit {
   calcularClassificacao() {
     this.clubes.forEach(c => {
       const pontos = this.obterPontos(c.id);
-      this.classificacao.push(new PosicaoModel(c.id, pontos, c.nome));      
+      this.classificacao.push(new PosicaoModel(c.id, pontos, c.nome, c.imagem));      
     })
 
     this.classificacao = this.classificacao.sort((a,b) => b.pontos - a.pontos);
