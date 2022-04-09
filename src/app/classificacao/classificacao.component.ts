@@ -42,7 +42,11 @@ export class ClassificacaoComponent implements OnInit {
 
       quantidadePontos += this.obterQuantidadePontos(colocacao);
 
-      if (r.bonus == clubeId) {
+      if (r.bonusReservas == clubeId) {
+        quantidadePontos++;
+      }
+
+      if (r.bonusColocacao == clubeId) {
         quantidadePontos++;
       }
     });

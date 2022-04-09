@@ -1,9 +1,20 @@
 [
-    { "id":"erick", "nome": "Fonseca's Club", "imagem": "assets/imgs/clubes/fonsecasclub.svg"},
     { "id":"leticia", "nome": "Aicitel de Latiffa", "imagem": "assets/imgs/clubes/aicitel.svg"},
+    { "id":"vinicius", "nome": "Azilo Ta On Fc", "imagem": "assets/imgs/clubes/azilo.svg"},
+    { "id":"danilo", "nome": "Baile Dimunique", "imagem": "assets/imgs/clubes/baile.svg"},
     { "id":"jhones", "nome": "Bazsant FC", "imagem": "assets/imgs/clubes/bazsant.svg"},
-    { "id":"gustavo", "nome": "Ovatsug Team", "imagem": "assets/imgs/clubes/ovatsug.svg"},
     { "id":"daniel", "nome": "Club XV de Quatorze", "imagem": "assets/imgs/clubes/xvde14.svg"},
+    { "id":"max", "nome": "DANTAS29FC", "imagem": "assets/imgs/clubes/dantas.svg"},
+    { "id":"juan", "nome": "Esquadrão Madrid Fc 02", "imagem": "assets/imgs/clubes/esquadrao.svg"},
+    { "id":"sergio", "nome": "FC Real Cakes", "imagem": "assets/imgs/clubes/real.svg"},
+    { "id":"erick", "nome": "Fonseca's Club", "imagem": "assets/imgs/clubes/fonsecasclub.svg"},
+    { "id":"sofia", "nome": "Lisb FC", "imagem": "assets/imgs/clubes/lisb.svg"},
+    { "id":"gustavo", "nome": "Ovatsug Team", "imagem": "assets/imgs/clubes/ovatsug.svg"},
+    { "id":"samuel", "nome": "Paris Saint Ângela", "imagem": "assets/imgs/clubes/paris.svg"},
+    { "id":"jonathan", "nome": "Pelé1000grau", "imagem": "assets/imgs/clubes/pele.svg"},
+    { "id":"bruno", "nome": "Puumas Jr FC", "imagem": "assets/imgs/clubes/puumas.svg"},
+    { "id":"amaro", "nome": "Sanchez City Football Club", "imagem": "assets/imgs/clubes/sanchez.svg"},
+    { "id":"joao", "nome": "SPIRIQUIDIBERTOS F C", "imagem": "assets/imgs/clubes/spiriquidibertos.svg"},
     { "id":"thiago", "nome": "TitoHenrique8", "imagem": "assets/imgs/clubes/titohenrique.svg"},
-    { "id":"joao", "nome": "SPIRIQUIDIBERTOS F C", "imagem": "assets/imgs/clubes/spiriquidibertos.svg"}
+    { "id":"rayelle", "nome": "VilaRay Fc", "imagem": "assets/imgs/clubes/vilaray.svg"}
 ]

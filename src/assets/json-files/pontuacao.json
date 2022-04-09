@@ -1,10 +1,20 @@
 [
-    { "colocacao": 0, "pontos": 1 },
-    { "colocacao": 1, "pontos": 7 },
-    { "colocacao": 2, "pontos": 6 },
-    { "colocacao": 3, "pontos": 5 },
-    { "colocacao": 4, "pontos": 4 },
-    { "colocacao": 5, "pontos": 3 },
-    { "colocacao": 6, "pontos": 2 },
-    { "colocacao": 7, "pontos": 1 }
+    { "colocacao": 1, "pontos": 10 },
+    { "colocacao": 2, "pontos": 9 },
+    { "colocacao": 3, "pontos": 8 },
+    { "colocacao": 4, "pontos": 7 },
+    { "colocacao": 5, "pontos": 6 },
+    { "colocacao": 6, "pontos": 5 },
+    { "colocacao": 7, "pontos": 4 },
+    { "colocacao": 8, "pontos": 3 },
+    { "colocacao": 9, "pontos": 2 },
+    { "colocacao": 10, "pontos": 1 },
+    { "colocacao": 11, "pontos": 1 },
+    { "colocacao": 12, "pontos": 1 },
+    { "colocacao": 13, "pontos": 1 },
+    { "colocacao": 14, "pontos": 1 },
+    { "colocacao": 15, "pontos": 1 },
+    { "colocacao": 16, "pontos": 0 },
+    { "colocacao": 17, "pontos": 0 },
+    { "colocacao": 18, "pontos": 0 }
 ]
