@@ -5,13 +5,13 @@
       </clipPath>
     </defs>
 
-    <g id="fundo" fill="#ff6b66" x="0">
+    <g id="fundo" fill="#063780" x="0">
       <path d="M250.075,498.61c0,0,36.319-82.74,194.845-141.325V-1.145H261.845H238.15H55.08v358.43 C213.62,415.87,250.075,498.61,250.075,498.61L250.075,498.61L250.075,498.61z"/>
     </g>
 
-    <g id="estampa1" fill="#00b9ff" x="0" clip-path="url(#formato)"><rect x="300" width="50" height="100%"/><rect y="150" width="100%" height="50"/></g>
+    <g id="estampa1" fill="#e65ce6" x="0" clip-path="url(#formato)"><rect x="300" width="50" height="100%"/><rect y="150" width="100%" height="50"/></g>
 
-    <g id="borda" fill="none" stroke="#063780" stroke-width="10" x="0">
+    <g id="borda" fill="none" stroke="#ffcb00" stroke-width="10" x="0">
       <path d="M250.075,498.61c0,0,36.319-82.74,194.845-141.325V-1.145H261.845H238.15H55.08v358.43 C213.62,415.87,250.075,498.61,250.075,498.61L250.075,498.61L250.075,498.61z"/>
     </g>
 
