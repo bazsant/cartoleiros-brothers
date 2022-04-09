@@ -1,4 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
 html, body {
-    background-color: #212529;
+    background-color: #263053;
+    color: #c89d58;
+}
+
+.bg-dark {
+    background-color: #263053!important;
+}
+
+.table-dark {
+    --bs-table-bg: #263053;
+    --bs-table-striped-bg: #2c3034;
+    --bs-table-striped-color: #c89d58;
+    --bs-table-active-bg: #373b3e;
+    --bs-table-active-color: #c89d58;
+    --bs-table-hover-bg: #323539;
+    --bs-table-hover-color: #c89d58;
+    color: hotpink;
+    border-color: #373b3e;
+}
+
+.navbar-dark .navbar-brand {
+    color: #c89d58 !important;
+}
+
+.card-body {
+    color: #c89d58;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #c89d58;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #c89d58;
+}
+
+.text-gold {
+    color: #c89d58 !important;
 }

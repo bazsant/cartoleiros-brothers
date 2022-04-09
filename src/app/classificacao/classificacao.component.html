@@ -2,7 +2,7 @@
     <img src="assets/imgs/classificacao-capa.jpg" class="card-img-top" alt="Imagem capa Classificação">
     <div class="card-body">
       <h5 class="card-title">Classificação</h5>
-      <p class="card-text">Classificação geral mais atualizada possível, espero rs</p>
+      <p class="card-text text-white">Classificação geral mais atualizada possível, espero rs</p>
     </div>
     <table class="table table-dark">
         <thead>
@@ -13,7 +13,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let posicao of classificacao | slice:0; let i = index">
+          <tr class="text-white" *ngFor="let posicao of classificacao | slice:0; let i = index">
             <th scope="row">{{i + 1}}</th>
             <td><img class="logo-clube" [src]="posicao.imagem" alt="Logo do clube"> {{posicao.nome}}</td>
             <td>{{posicao.pontos}}</td>

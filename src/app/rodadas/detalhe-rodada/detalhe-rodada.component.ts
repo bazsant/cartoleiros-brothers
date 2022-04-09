@@ -47,7 +47,7 @@ export class DetalheRodadaComponent implements OnInit {
       Swal.fire({
         title: 'Opa!',
         customClass: {
-          popup: 'bg-dark text-white'
+          popup: 'bg-dark text-gold'
         },
         text: 'Rodada ainda não cadastrada!',
         icon: 'error',
