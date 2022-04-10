@@ -1,5 +1,6 @@
 [
     { "id":"leticia", "nome": "Aicitel de Latiffa", "imagem": "assets/imgs/clubes/aicitel.svg"},
+    { "id":"fabio", "nome": "ARJ 22 F.C", "imagem": "assets/imgs/clubes/arj.svg"},
     { "id":"vinicius", "nome": "Azilo Ta On Fc", "imagem": "assets/imgs/clubes/azilo.svg"},
     { "id":"danilo", "nome": "Baile Dimunique", "imagem": "assets/imgs/clubes/baile.svg"},
     { "id":"jhones", "nome": "Bazsant FC", "imagem": "assets/imgs/clubes/bazsant.svg"},

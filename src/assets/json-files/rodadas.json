@@ -1,5 +1,5 @@
 [
     { "numero": 1, "meme": "assets/imgs/memes/rodada1.webp", "colocacoes": ["erick","joao","thiago","jhones","leticia"], "bonusReservas": "", "bonusColocacao": "", "descricao": "algo a ser lembrado" },
-    { "numero": 2, "meme": "assets/imgs/memes/rodada2.jpg", "colocacoes": ["leticia","joao","erick","gustavo","jhones"], "bonusReservas": "leticia", "bonusColocacao": "", "descricao": "algo a ser lembrado" },
-    { "numero": 3, "meme": "assets/imgs/memes/rodada3.webp", "colocacoes": ["daniel","gustavo","thiago","leticia","joao"], "bonusReservas": "", "bonusColocacao": "", "descricao": "algo a ser lembrado" }
+    { "numero": 2, "meme": "assets/imgs/memes/rodada2.jpg", "colocacoes": ["leticia","joao","erick","gustavo","jhones"], "bonusReservas": "leticia", "bonusColocacao": "", "descricao": "algo a ser lembrado 2" },
+    { "numero": 3, "meme": "assets/imgs/memes/rodada3.webp", "colocacoes": ["daniel","gustavo","thiago","leticia","joao"], "bonusReservas": "", "bonusColocacao": "", "descricao": "algo a ser lembrado 3" }
 ]
