@@ -1,3 +1,4 @@
 [
-    { "numero": 1, "meme": "assets/imgs/memes/rodada1.jpg", "colocacoes": ["danilo","jonathan","fabio","max","samuel", "daniel", "leticia", "rayelle", "juan", "sergio", "thiago", "vinicius", "joao", "amaro", "gustavo", "bruno", "jhones", "erick", "sofia"], "bonusReservas": "leticia", "bonusColocacao": "", "descricao": "#campeonatoManchado" }
+    { "numero": 1, "meme": "assets/imgs/memes/rodada1.jpg", "colocacoes": ["danilo", "jonathan", "fabio", "max", "samuel", "daniel", "leticia", "rayelle", "juan", "sergio", "thiago", "vinicius", "joao", "amaro", "gustavo", "bruno", "jhones", "erick", "sofia"], "bonusReservas": "leticia", "bonusColocacao": "", "descricao": "#campeonatoManchado" },
+    { "numero": 2, "meme": "assets/imgs/memes/rodada2.jpg", "colocacoes": ["samuel", "leticia", "max", "fabio", "danilo", "amaro", "jonathan", "thiago", "daniel", "jhones", "rayelle", "bruno", "juan", "sergio", "joao", "gustavo", "vinicius", "erick", "sofia"], "bonusReservas": "danilo", "bonusColocacao": "", "descricao": "#thiagoDasLamentações" }
 ]
